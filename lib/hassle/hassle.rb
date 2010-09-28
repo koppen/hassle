@@ -1,3 +1,6 @@
+require 'sass'
+require 'sass/plugin'
+
 class Hassle
   def initialize(app)
     @app = app
