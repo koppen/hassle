@@ -1,8 +1,7 @@
-require 'sass'
-require 'sass/plugin'
-
 class Hassle
   def initialize(app)
+    require 'sass'
+    require 'sass/plugin'
     @app = app
     @compiler = Hassle::Compiler.new
     @compiler.compile
